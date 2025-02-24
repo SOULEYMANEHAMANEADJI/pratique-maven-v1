@@ -1,0 +1,27 @@
+2025-02-22T23:20:46.923Z  INFO 11444 --- [maven-lab] [main] c.i.m.services.ServicesApplicationTests  : Starting ServicesApplicationTests using Java 17.0.13 with PID 11444 (started by mineh in C:\Users\mineh\Desktop\mineHas\tp-maven\maven-lab1\services)
+2025-02-22T23:20:46.950Z  INFO 11444 --- [maven-lab] [main] c.i.m.services.ServicesApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T23:20:49.933Z  INFO 11444 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-22T23:20:50.125Z  INFO 11444 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 3 JPA repository interfaces.
+2025-02-22T23:20:51.728Z  INFO 11444 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-22T23:20:52.307Z  INFO 11444 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-22T23:20:52.312Z  INFO 11444 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-22T23:20:52.509Z  INFO 11444 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-22T23:20:52.734Z  INFO 11444 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-22T23:20:52.865Z  INFO 11444 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-22T23:20:53.862Z  INFO 11444 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-22T23:20:54.006Z  WARN 11444 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-22T23:20:54.037Z  INFO 11444 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-22T23:20:56.107Z  INFO 11444 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-22T23:20:56.192Z  INFO 11444 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-22T23:20:58.629Z  WARN 11444 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-22T23:20:59.109Z  INFO 11444 --- [maven-lab] [main] c.i.m.services.ServicesApplicationTests  : Started ServicesApplicationTests in 13.344 seconds (process running for 15.388)
+2025-02-22T23:21:02.692Z  INFO 11444 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-22T23:21:02.720Z  INFO 11444 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-22T23:21:02.743Z  INFO 11444 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
